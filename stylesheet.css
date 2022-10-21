@@ -3,6 +3,8 @@ body {
 }
 h1,h2 {
     text-align: center;
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 #strawberry {
  display: flex;
