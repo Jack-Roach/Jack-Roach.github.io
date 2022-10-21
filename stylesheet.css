@@ -1,12 +1,28 @@
+/***************DS Portfolio Style Sheet***************/
+body{
+    margin: 36px auto;
+    width: 90%;
+    border-left: 4px solid #EFF5FB;
+    border-right: 4px solid #EFF5FB;
+}
 body {
-    background-color: LightBlue;
+    /*background-color: pink;
+    background: rgb(0, 24, 72);*/
+    background-image: linear-gradient(lightblue, white, skyblue);
 }
 h1,h2 {
     text-align: center;
     color: white;
-    text-shadow: 0 0 2px black;
+    /**text-shadow: 0 0 2px black;**/
+    text-shadow: 1px 1px 2px black;
 }
 #strawberry {
  display: flex;
  justify-content: center;
 }
+/**img{
+    display: block;
+    max-width: 500px;
+    border: 4px rgb(0, 24, 72) solid;
+    margin:0px auto;
+}**/
