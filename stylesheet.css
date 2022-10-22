@@ -1,14 +1,16 @@
 /***************DS Portfolio Style Sheet***************/
 body{
-    margin: 36px auto;
-    width: 95%;
-    border-left: 4px solid darkblue;
-    border-right: 4px solid darkblue;
+    margin: 0px auto;
+    width: 100%;
+    /*
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    */
 }
 body {
     /*background-color: pink;
     background: rgb(0, 24, 72);*/
-    background-image: linear-gradient(lightblue, white, skyblue);
+    background-image: linear-gradient(lightblue);
     font-family: arial;
 }
 h1,h2 {
@@ -21,11 +23,33 @@ h1,h2 {
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 300%;
+    margin-top: 20%
+}
+#body {
+    
+}
+#sidebar {
+    margin: 0px;
+    float: left;
+    background-color: lightblue;
+    width: 30%;
+    height: 100%;
+}
+#main {
+    margin: 0px;
+    float: left;
+    background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);
+    width: 70%;
+    height: 100%;
 }
 #strawberry {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50%;
+    transform: translate(0%,-50%)
 }
 /*img{
     display: block;
