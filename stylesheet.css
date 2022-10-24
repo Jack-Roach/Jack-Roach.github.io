@@ -93,12 +93,12 @@ nav ul li a {
     vertical-align: middle;
 }
 
-nav ul li a:link{
+nav ul li a:link, a:visited{
     text-decoration: none;
     color: white
 }
 
-nav ul li:hover a:link{
+nav ul li:hover a:link, a:visited{
     text-decoration: none;
     color: rgb(29,41,81)
 }
