@@ -1,16 +1,12 @@
 /***************DS Portfolio Style Sheet***************/
 /*************** Authored by Jack Roach ***************/
-body{
+body, html{
+    height: 100%;
+}
+
+body {
     margin: 0px auto;
     width: 100%;
-    /*
-    border-left: 1px solid red;
-    border-right: 1px solid red;
-    */
-}
-body {
-    /*background-color: pink;
-    background: rgb(0, 24, 72);*/
     background-image: linear-gradient(lightblue);
     font-family: arial;
 }
@@ -28,13 +24,13 @@ h1 {
     float: left;
     background-color: rgb(29,41,81);
     width: 35%;
-    height: 100%;
+    height: 300%;
 }
 
 #sidebar h1 {
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 3px black;
     font-size: 300%;
     margin-top: 10%;
 }
@@ -61,6 +57,55 @@ h1 {
     text-shadow: 1px 1px 2px black;
 }
 
+nav ul {
+    text-align: center;  
+    list-style:none;
+    margin-top: 30px;
+    padding-left:0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    /*padding:10px;*/
+    margin-top: 10px;/*replaced padding*/
+    height: 40px;/*replaced padding*/
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    border: 3px solid rgb(29,41,81);
+       
+}
+
+nav ul li:hover{
+    background-color: white;
+    border: 3px solid white;
+    color: rgb(29,41,81);
+}
+
+nav ul li:active {
+    background-color: white;
+    border: 3px inset rgb(29,41,81);
+}
+
+nav ul li a{
+    display: block;
+}
+
+nav ul li a:link{
+    text-decoration: none;
+    color: white
+}
+
+nav ul li:hover a:link{
+    text-decoration: none;
+    color: rgb(29,41,81)
+}
+
 /********** Main Body of the Site **********/
 
 #main {
@@ -69,7 +114,7 @@ h1 {
     /*background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);*/
     background-image:linear-gradient(white,#bcd6ff,rgb(29,41,81)); /*linear-gradient(pink, rgb(253,253,158));*/
     width: 65%;
-    height: 100%;
+    height: 300%;
 }
 
 #main h1 {
@@ -79,6 +124,16 @@ h1 {
     border-style: hidden hidden solid hidden;
     border-width: 2px;
     
+}
+
+/********** Website Footer **********/
+#footer {
+    margin: 0px;
+    float: left;
+    /*background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);*/
+    background-color: rgb(10,10,50);
+    width: 100%;
+    height: 20%;
 }
 
 /********** Color Palettes **********/
@@ -109,3 +164,6 @@ Potential pastel gradient: linear-gradient(pink, rgb(253,253,158))
     border: 4px rgb(0, 24, 72) solid;
     margin:0px auto;
 }*/
+
+/*box-shadow: 10px 10px 10px 10px white;*/
+/*transform: translateY(4px);*/
