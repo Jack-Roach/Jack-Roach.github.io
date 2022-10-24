@@ -70,6 +70,9 @@ nav ul li {
     margin: 0 auto;
     padding: 0;
     /*padding:10px;*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
     margin-top: 10px;/*replaced padding*/
     height: 40px;/*replaced padding*/
     width: 200px;
