@@ -60,6 +60,7 @@ h1 {
 /***** Sidebar Navigation *****/
 
 nav ul {
+    font-family: monospace;
     text-align: center;  
     list-style:none;
     margin-top: 30px;
@@ -150,7 +151,7 @@ nav ul li:hover a:link{
 }
 
 .title h2{
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
     border:1px none blue;
     font-size: 200%;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
