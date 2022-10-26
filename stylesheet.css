@@ -142,14 +142,16 @@ nav ul li:hover a:link{
 }
 
 .title {
-    padding: 10px;
-    border:1px none black;
+    margin: 0 auto;
+    border:1px solid rgb(255, 250, 225);
     text-align: center;
     font-family: Papyrus;
     color: rgb(100,50,00);
 }
 
 .title h2{
+    margin: 10px 0 0 0;
+    border:1px none blue;
     font-size: 200%;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     
@@ -160,7 +162,7 @@ nav ul li:hover a:link{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    border: 1px none blue;
+    border: 0px none blue;
     width: 47.3%;
     height: 52.8%;
 } 
@@ -168,7 +170,7 @@ nav ul li:hover a:link{
 .description {
     display: flex;
     justify-content: center;
-    border: 1px none black;
+    border: 0px none black;
     font-family: "Courier New", Courier, monospace;
 }
 
