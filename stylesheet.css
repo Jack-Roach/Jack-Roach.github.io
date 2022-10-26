@@ -24,7 +24,7 @@ h1 {
     float: left;
     background-color: rgb(29,41,81);
     width: 35%;
-    height: 300%;
+    height: 400%;
 }
 
 #sidebar h1 {
@@ -56,6 +56,8 @@ h1 {
     color: white;
     text-shadow: 1px 1px 2px black;
 }
+
+/***** Sidebar Navigation *****/
 
 nav ul {
     text-align: center;  
@@ -116,7 +118,7 @@ nav ul li:hover a:link{
     /*background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);*/
     background-image:linear-gradient(white,#bcd6ff,rgb(29,41,81)); /*linear-gradient(pink, rgb(253,253,158));*/
     width: 65%;
-    height: 300%;
+    height: 400%;
 }
 
 #main h1 {
@@ -127,6 +129,48 @@ nav ul li:hover a:link{
     border-width: 2px;
     
 }
+
+/***** Projects *****/
+
+.project {
+    margin: 50px 15% 50px 15%;
+    height: 15%;
+    /*border: 1px solid white;*/
+    background: rgba(255, 250, 225, 1);
+    /* 255, 242, 181 */
+    box-shadow: 10px 10px rgb(255,225,225), 20px 20px 0px white;
+}
+
+.title {
+    border:1px solid black;
+    text-align: center;
+    font-family: Papyrus;
+    color: rgb(100,50,00);
+}
+
+.title h2{
+    margin: 10 auto;
+    font-size: 200%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid blue;
+    width: 47.3%;
+    height: 52.8%;
+} 
+
+.description {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
 
 /********** Website Footer **********/
 #footer {
@@ -169,3 +213,6 @@ Potential pastel gradient: linear-gradient(pink, rgb(253,253,158))
 
 /*box-shadow: 10px 10px 10px 10px white;*/
 /*transform: translateY(4px);*/
+
+
+/* Try making it so the sidebar doesn't scroll but the main area does */
