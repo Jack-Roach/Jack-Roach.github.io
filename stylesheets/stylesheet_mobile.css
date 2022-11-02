@@ -2,6 +2,12 @@
     display: block;
     width: 100%;
     height: auto; /*60%*/
+    background-color: #495f99;
+}
+
+#sidebar h1 {
+    background-color: rgb(50,50,100);
+    border-top: 10% solid rgb(50,50,100);
 }
 
 nav {
