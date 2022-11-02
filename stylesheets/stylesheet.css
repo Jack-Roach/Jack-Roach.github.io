@@ -182,11 +182,28 @@ nav ul li:hover a:link{
     border: 0px none black;
     font-family: "Courier New", Courier, monospace;
     color: rgb(29,41,81);
+    text-align: justify;
 }
 
 .repository {
+    position: relative;
+    bottom: 5px;
+    margin: 0 auto;
     text-align: center;
+    align-items: bottom;
+    font-size:150%;
 }
+
+.repository a, a:link, a:visited {
+    text-decoration: none;
+    color: rgb(29,41,81);
+}
+
+.repository a:hover {
+    text-decoration: underline;
+}
+
+
 
 /********** Website Footer **********/
 #footer {

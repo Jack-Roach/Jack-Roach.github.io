@@ -27,3 +27,7 @@ nav {
 #main h1 {
     display: none;
 }
+
+#footer {
+    background-color: rgb(50,50,100);
+}
