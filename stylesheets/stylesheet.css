@@ -184,6 +184,9 @@ nav ul li:hover a:link{
     color: rgb(29,41,81);
 }
 
+.repository {
+    text-align: center;
+}
 
 /********** Website Footer **********/
 #footer {
