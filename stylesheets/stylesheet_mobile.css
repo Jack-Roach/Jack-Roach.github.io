@@ -32,11 +32,15 @@ nav {
 .title h2{
     margin: 15px 1em 0 1em;
     border:1px none black;
-    font-size: 120%;
+    font-size: 100%;    
 }
 
 .description {
     margin:1em 1em 1em 1em;
+}
+
+.repository {
+    font-size:100%;
 }
 
 #footer {
