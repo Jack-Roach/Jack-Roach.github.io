@@ -1,7 +1,9 @@
 #sidebar {
     background-color: red;
+    width: 100%;
 }
 
 #main {
     background-color: blue;
+    width: 100%;
 }
