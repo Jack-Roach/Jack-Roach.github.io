@@ -1,9 +1,11 @@
 #sidebar {
-    background-color: red;
+    display: block;
+    background-color: darkred;
     width: 100%;
 }
 
 #main {
-    background-color: blue;
+    display: block;
+    background-color: darkblue;
     width: 100%;
 }
