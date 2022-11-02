@@ -29,6 +29,16 @@ nav {
     display: none;
 }
 
+.title h2{
+    margin: 15px 1em 0 1em;
+    border:1px none black;
+    font-size: 120%;
+}
+
+.description {
+    margin:1em 1em 1em 1em;
+}
+
 #footer {
     background-color: rgb(50,50,100);
 }
