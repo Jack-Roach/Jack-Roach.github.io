@@ -1,11 +1,17 @@
 #sidebar {
     display: block;
-    background-color: darkred;
     width: 100%;
+}
+
+nav {
+    display: none;
 }
 
 #main {
     display: block;
-    background-color: darkblue;
     width: 100%;
+}
+
+#main h1 {
+    display: none;
 }
