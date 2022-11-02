@@ -130,7 +130,7 @@ nav ul li:hover a:link{
 #main h1 {
     margin-left: 5%;
     margin-right: 5%;
-    color: rgb(210,230,250);
+    color: rgb(255,255,255);
     border-style: hidden hidden solid hidden;
     border-width: 2px;
     text-shadow: -1px 0 rgb(50,50,100), 0 1px rgb(50,50,100), 1px 0 rgb(50,50,100), 0 -1px rgb(50,50,100);
@@ -154,13 +154,14 @@ nav ul li:hover a:link{
     text-align: center;
     font-family: monaco, Arial, sans-serif;
     color: rgb(29,41,81);
+
+    height: 5em;
 }
 
 .title h2{
-    margin: 15px 2em 0 2em;
+    margin: 15px 1em 0 1em;
     border:1px none blue;
-    font-size: 150%;
-    
+    font-size: 150%;    
 }
 
 /* To be used if I decide to add flavor images to the project elements.
@@ -176,19 +177,22 @@ nav ul li:hover a:link{
 */
 
 .description {
-    margin:2em;
+    margin:1em 2em 1em 2em;
     display: flex;
     justify-content: center;
     border: 0px none black;
     font-family: "Courier New", Courier, monospace;
     color: rgb(29,41,81);
+
+    height: 16em;
 }
 
 .repository {
-    background-color:blue;
     margin-bottom:0;
     text-align: center;
-    font-size:150%;
+    font-size:140%;
+    
+    height: 1.5em;
 }
 
 .repository a, .repository a:link, .repository a:visited {
@@ -199,7 +203,6 @@ nav ul li:hover a:link{
 .repository a:hover {
     text-decoration: underline;
 }
-
 
 
 /********** Website Footer **********/
