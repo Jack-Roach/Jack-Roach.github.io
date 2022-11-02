@@ -22,15 +22,17 @@ h1 {
 #sidebar {
     margin: 0px;
     float: left;
-    background-color: rgb(29,41,81);
+    /*background-color: rgb(29,41,81);*/
+    /*background-color: rgb(255, 250, 225);*/
+    background-color: rgb(50,50,100); /*#504070*/
     width: 35%;
     height: 400%;
 }
 
 #sidebar h1 {
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 3px black;
+    color: rgb(255,255,255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 300%;
     margin-top: 10%;
 }
@@ -40,8 +42,9 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: #bcd6ff;
-    border: 5px solid white;
+    /*background-color: #bcd6ff;*/
+    background-color: rgb(29,41,81);
+    border: 5px solid rgb(255,240,255);
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -53,7 +56,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     font-size: 105%;
-    color: white;
+    color: rgb(240,240,240);
     text-shadow: 1px 1px 2px black;
 }
 
@@ -77,18 +80,18 @@ nav ul li {
     text-align: center;
     font-size:30px;
     font-weight:bold;
-    border: 4px solid rgb(29,41,81);
+    border: 4px solid rgb(50,50,100);
 }
 
 nav ul li:hover{
     background-color: white;
     border: 4px solid white;
-    color: rgb(29,41,81);
+    color: rgb(50,50,100);
 }
 
 nav ul li:active {
     background-color: white;
-    border: 4px inset rgb(29,41,81);
+    border: 4px inset rgb(50,50,100);
 }
 
 nav ul li a {
@@ -103,12 +106,12 @@ nav ul li a:link, a:visited{
 
 nav ul li:hover a:visited{
     text-decoration: none;
-    color: rgb(29,41,81);
+    color: rgb(50,50,100);
 }
 
 nav ul li:hover a:link{
     text-decoration: none;
-    color: rgb(29,41,81);
+    color: rgb(50,50,100);
 }
 
 /********** Main Body of the Site **********/
@@ -117,7 +120,8 @@ nav ul li:hover a:link{
     margin: 0px;
     float: left;
     /*background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);*/
-    background-image:linear-gradient(white,#bcd6ff,rgb(29,41,81)); /*linear-gradient(pink, rgb(253,253,158));*/
+    /*background-image:linear-gradient(white,#bcd6ff,rgb(29,41,81)); /*linear-gradient(pink, rgb(253,253,158));*/
+    background-color: #495f99;
     width: 65%;
     height: 400%;
 }
@@ -125,39 +129,40 @@ nav ul li:hover a:link{
 #main h1 {
     margin-left: 5%;
     margin-right: 5%;
-    color: rgb(29,41,81);
+    color: rgb(210,230,250);
     border-style: hidden hidden solid hidden;
     border-width: 2px;
+    text-shadow: -1px 0 rgb(50,50,100), 0 1px rgb(50,50,100), 1px 0 rgb(50,50,100), 0 -1px rgb(50,50,100);
     
 }
 
 /***** Projects *****/
 
 .project {
-    margin: 50px 15% 50px 15%;
+    margin: 50px 15% 75px 15%;
     height: 15%;
     /*border: 1px solid white;*/
-    background: rgba(255, 250, 225, 1);
+    background: #f8b195;
     /* 255, 242, 181 */
-    box-shadow: 10px 10px rgb(255,225,225), 20px 20px 0px white;
+    box-shadow: 12px 12px #f67280, 24px 24px 0px #c06c84;
 }
 
 .title {
     margin: 0 auto;
-    border:1px solid rgb(255, 250, 225);
+    border:1px solid #f8b195;
     text-align: center;
-    font-family: Papyrus;
-    color: rgb(100,50,00);
+    font-family: monaco, Arial, sans-serif;
+    color: rgb(29,41,81);
 }
 
 .title h2{
-    margin: 15px 0 0 0;
+    margin: 15px 2em 0 2em;
     border:1px none blue;
-    font-size: 200%;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 150%;
     
 }
 
+/* To be used if I decide to add flavor images to the project elements.
 .image img {
     display: flex;
     justify-content: center;
@@ -166,13 +171,16 @@ nav ul li:hover a:link{
     border: 0px none blue;
     width: 47.3%;
     height: 52.8%;
-} 
+}
+*/
 
 .description {
+    margin:2em;
     display: flex;
     justify-content: center;
     border: 0px none black;
     font-family: "Courier New", Courier, monospace;
+    color: rgb(29,41,81);
 }
 
 
@@ -181,7 +189,7 @@ nav ul li:hover a:link{
     margin: 0px;
     float: left;
     /*background-image: radial-gradient(greenyellow, palegreen, paleturquoise, lightblue 70%);*/
-    background-color: rgb(10,10,50);
+    background-color: rgb(39,41,81);
     width: 100%;
     height: 20%;
 }
@@ -189,13 +197,15 @@ nav ul li:hover a:link{
 /********** Color Palettes **********/
 
 /*
-Nearly white for main: rgb(240,240,240)
 Dark blue: rgb(29,41,81)
 Pastel blue: #bcd6ff
 Potential pastel gradient: linear-gradient(pink, rgb(253,253,158))
+Pastel Yellow: background: rgba(255, 250, 225, 1);
+Pink and white shadow boxes: box-shadow: 10px 10px rgb(255,225,225), 20px 20px 0px white;
 
+
+White text border: text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 */
-
 
 /********** Test Code **********/
 
