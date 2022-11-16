@@ -128,8 +128,9 @@ nav ul li:hover a:link{
 }
 
 #main h1 {
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
     color: rgb(255,255,255);
     border-style: hidden hidden solid hidden;
     border-width: 2px;
